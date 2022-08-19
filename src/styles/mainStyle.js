@@ -23,7 +23,7 @@ export const secondary = StyleSheet.create({
 export const sizes = StyleSheet.create({
   text: {
     textAlign: 'center',
-    marginVertical: 3,
+    marginVertical: 5,
   },
 });
 

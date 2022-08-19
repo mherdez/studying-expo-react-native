@@ -1,17 +1,15 @@
 import { StatusBar } from "expo-status-bar";
 import { Text, View } from "react-native";
+import Title from "../components/Title";
 
 import { primary, textosCenter } from "../styles/mainStyle";
 const MainScreen = ({ title }) => {
 
-  console.log('hey !!!!')
   return (
     <>
     <View style={primary.container}>
-      <Text style={textosCenter}>
-        {title}
-      </Text>
-      <Text style={textosCenter}>🤗</Text>
+      <Title title={title} />
+      <Text style={[textosCenter, {fontSize: 25,}]}>again... 🤗</Text>
       <StatusBar style="auto" />
     </View>
     </>
