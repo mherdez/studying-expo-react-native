@@ -11,6 +11,7 @@ const MainScreen = ({ title }) => {
       <Text style={textosCenter}>
         {title}
       </Text>
+      <Text style={textosCenter}>🤗</Text>
       <StatusBar style="auto" />
     </View>
     </>

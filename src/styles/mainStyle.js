@@ -10,6 +10,7 @@ export const primary = StyleSheet.create({
   },
   text: {
     fontSize: 35,
+    fontWeight: 'bold'
   }
 });
 
@@ -21,7 +22,8 @@ export const secondary = StyleSheet.create({
 
 export const sizes = StyleSheet.create({
   text: {
-    textAlign: 'center'
+    textAlign: 'center',
+    marginVertical: 3,
   },
 });
 
