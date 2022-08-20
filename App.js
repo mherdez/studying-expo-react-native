@@ -1,8 +1,10 @@
-import MainScreen from './src/screens/MainScreen';
+import PokemonScreen from "./src/screens/PokemonScreen";
 
 const App = () => {
   return (
-    <MainScreen title={'Hola Mundo'} />
+    <>
+      <PokemonScreen />
+    </>
   );
 }
 

@@ -1,5 +1,11 @@
 import { StyleSheet } from 'react-native';
 
+export const pokemonStyle = StyleSheet.create({
+  img: {
+    width: 50,
+    height: 50,
+  }
+});
 
 export const primary = StyleSheet.create({
   container: {
@@ -7,6 +13,10 @@ export const primary = StyleSheet.create({
     backgroundColor: 'dodgerblue',
     alignItems: 'center',
     justifyContent: 'center',
+    borderColor: 'yellow',
+    borderStyle: 'solid',
+    borderWidth: 10
+
   },
   text: {
     fontSize: 35,

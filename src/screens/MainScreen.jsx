@@ -9,7 +9,7 @@ const MainScreen = ({ title }) => {
     <>
     <View style={primary.container}>
       <Title title={title} />
-      <Text style={[textosCenter, {fontSize: 25,}]}>again... 🤗</Text>
+      <Text style={[textosCenter, {fontSize: 25, color: 'gold'}]}>again... 🤗</Text>
       <StatusBar style="auto" />
     </View>
     </>
